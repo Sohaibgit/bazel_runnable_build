@@ -1,0 +1,11 @@
+--output
+bazel-out/x64_windows-fastbuild/bin/src/main/java/com/example/cmdline/runner_deploy.jar
+--compression
+--normalize
+--main_class
+com.example.cmdline.Runner
+--build_info_file
+bazel-out/x64_windows-fastbuild/include/build-info-redacted.properties
+--sources
+bazel-out/x64_windows-fastbuild/bin/src/main/java/com/example/cmdline/runner.jar,//src/main/java/com/example/cmdline:runner
+bazel-out/x64_windows-fastbuild/bin/libgreeter.jar,//:greeter
